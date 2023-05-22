@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>网页过渡动画</title>
+  <style>
+    body {
+      background-color: #fff;
+      transition: background-color 0.5s ease-in-out;
+    }
+
+    body.loaded {
+      background-color: #000;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      document.body.classList.add('loaded');
+    }
+  </script>
+</head>
+<body>
+  <h1>欢迎来到我的网页</h1>
+</body>
+</html>
