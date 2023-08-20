@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>公司网站主页</title>
+    <style>
+        /* 添加一些基本的样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* 创建一个动画效果 */
+        @keyframes slide-in {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        
+        /* 添加动画效果到元素 */
+        .animated-box {
+            width: 200px;
+            height: 200px;
+            background-color: #f0f0f0;
+            animation: slide-in 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-box"></div>
+</body>
+</html>
