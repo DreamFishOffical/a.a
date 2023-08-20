@@ -1,0 +1,210 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+body{margin:0 auto}
+.clear{ clear:both;}
+a{color:#333;text-decoration:none;}
+a:hover{text-decoration:underline;}
+li{list-style-type:none;}
+img{width:auto;max-width:100%;}
+.main{width:1200px;margin:0 auto;overflow:visible;}
+
+.content12{width:1200px;margin:0 auto;}
+
+
+.daohang {
+width:1200px;background:#102b6a;float:left;
+
+}
+.daohang .img{
+width:226px;
+float:left;
+
+}
+
+.daohang .img img{
+width:200px;height:90px;
+float:left;
+}
+
+
+
+.daohang ul{
+width:934px;
+background:#102b6a;float:left;
+}
+
+.daohang ul li{
+float:left;
+width:100px; 
+text-align:center;
+height:90px;line-height:90px;color:#fff;position: relative;
+}
+
+
+.daohang ul li a.active{
+color:#fff;}
+.daohang ul li a{
+color:#fff;}
+ 
+.daohang li:hover a{
+color:#fff;}
+
+
+
+
+
+
+
+
+
+.guanggaotupian
+{
+text-align:center;
+
+}
+.guanggaotupian img
+{
+width:1200px;
+
+}
+
+
+
+
+
+.taitou .title{
+
+
+
+border-bottom-color:#102b6a;border-bottom-style:solid;border-bottom-width:1px;
+
+
+
+overflow:hidden;
+
+margin-top:10px;
+margin-bottom:10px;
+margin-left:10px;
+margin-right:10px;
+}
+.taitou .stitle{text-align:center;padding:10px 20px;font-weight:bold;float:left;
+
+
+color:#ffffff;background:#102b6a;
+}
+.taitou .more{
+padding-top:10px;
+float:right;
+margin-right:10px;
+font-weight:bold;
+
+}
+
+
+
+.js 
+{
+width:1200px;}
+
+.js  img
+{
+margin-top:10px;
+margin-bottom:10px;
+width:1190px;
+float:left;
+}
+.js  .desc
+{
+padding:10px;
+text-align:left;
+}
+
+
+
+.js  .img
+{
+float:left;
+width:570px;margin:10px;height:300px;
+}
+
+
+
+
+
+
+
+
+.dibu .desc
+{
+
+text-align:center;color:#ffffff;
+background:#102b6a;padding:20px 0px;
+margin-top:10px;
+}
+
+.dibu img
+{
+
+
+}
+
+
+
+.lishiyange 
+{
+width:1200px;    text-align: justify;
+}
+.lishiyange .text
+{
+padding:10px;
+}
+
+
+.lishiyange  .img
+{
+
+text-align:center;
+}
+
+
+
+.lishiyange  .desc
+{
+padding:10px;
+text-align:left;
+float:left;
+text-align: justify;
+width:580px;
+}
+
+.lishiyange  .list
+{
+width:580px;padding-left:10px;
+float:left;
+}
+
+
+.lishiyange  .img
+{
+height:200px;
+
+width:280px;
+margin-right:5px;
+
+
+}
+
+
+
+
+
+
+.lishiyange  .slist
+{
+text-align:center;
+}
+————————————————
+版权声明：本文为CSDN博主「dreamweaver网页设计」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/stu_365392777/article/details/126201714@charset "utf-8";
+/* CSS Document */
+
