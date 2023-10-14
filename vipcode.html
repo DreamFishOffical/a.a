@@ -1,1 +1,41 @@
-
+<SCRIPT language=JavaScript> 
+ 
+function password() { 
+ 
+var testV = 1; 
+ 
+var pass1 = prompt('欢迎您使用MMVIP兑换服务！请查看“来牧马 VIP权益卡”北面的ID，输入在下方后点击确定，即可兑换！:',''); 
+ 
+while (testV < 3) { 
+ 
+if (!pass1) 
+ 
+history.go(-1); 
+ 
+if (pass1 == "9842HSDIIEHADM") { 
+ 
+alert('兑换成功！感谢您使用MMVIP服务！'); 
+ 
+break; 
+ 
+} 
+ 
+testV+=-1; 
+ 
+var pass1 = prompt('兑换码错误!请重新输入:'); 
+ 
+} 
+ 
+if (pass1!="password" & testV ==3) 
+ 
+history.go(-1); 
+ 
+return " "; 
+ 
+} 
+ 
+document.write(password()); 
+ 
+</SCRIPT>
+</head>
+<body>
