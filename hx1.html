@@ -1,1 +1,44 @@
-
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="template">
+<SCRIPT language=JavaScript> 
+ 
+function password() { 
+ 
+var testV = 1; 
+ 
+var pass1 = prompt('欢迎来到来牧马图书线上借阅系统。请您现在准备一张纸和笔，写下以下数字:YXLW93742U写好后在线下交给倪少鹏查案结果即可！''); 
+ 
+while (testV < 3) { 
+ 
+if (!pass1) 
+ 
+history.go(-1); 
+ 
+if (pass1 == "nsp9960") { 
+ 
+alert('验证成功！请将此纸转交给倪少鹏检查，检查成功后即可借阅到图书！'); 
+ 
+break; 
+ 
+} 
+ 
+testV+=-1; 
+ 
+var pass1 = prompt('点错了？重新再来！:'); 
+ 
+} 
+ 
+if (pass1!="password" & testV ==3) 
+ 
+history.go(-1); 
+ 
+return " "; 
+ 
+} 
+ 
+document.write(password()); 
+ 
+</SCRIPT>
